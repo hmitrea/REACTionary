@@ -17,14 +17,7 @@ function findComp(arr, name) {
 }
 
 
-function autoComplete(input) {
-  let reg = new RegExp(input.split('').join('\\w*').replace(/\W/, ""), 'i');
-  return input.filter(function(input) {
-    if (input.match(reg)) {
-      return input;
-    }
-  });
-}
+
 
 
 
